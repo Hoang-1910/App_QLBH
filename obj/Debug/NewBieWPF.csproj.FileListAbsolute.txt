@@ -1,0 +1,95 @@
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\NewBieWPF.exe.config
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\NewBieWPF.exe
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\NewBieWPF.pdb
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.csprojAssemblyReference.cache
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\MainWindow.g.cs
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\App.g.cs
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF_MarkupCompile.cache
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF_MarkupCompile.lref
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\MainWindow.baml
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.g.resources
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.Properties.Resources.resources
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.csproj.GenerateResource.cache
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.csproj.CoreCompileInputs.cache
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.exe
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.pdb
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\MaterialDesignColors.dll
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\MaterialDesignColors.pdb
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\App.baml
+F:\Downloads\HOC_TAP\Thuc tap chuyen nganh ky thuat phan mem\NewBieWPF\obj\Debug\NewBieWPF.csproj.CopyComplete
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\NewBieWPF.exe.config
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\NewBieWPF.exe
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\NewBieWPF.pdb
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignColors.dll
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignColors.pdb
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csprojAssemblyReference.cache
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\MainWindow.g.cs
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\App.g.cs
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF_MarkupCompile.cache
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF_MarkupCompile.lref
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\App.baml
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\MainWindow.baml
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.g.resources
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.Properties.Resources.resources
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csproj.GenerateResource.cache
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csproj.CoreCompileInputs.cache
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csproj.CopyComplete
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.exe
+F:\Downloads\HOC_TAP\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.pdb
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csprojAssemblyReference.cache
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\App.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF_MarkupCompile.cache
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF_MarkupCompile.lref
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.exe
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.pdb
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\NewBieWPF.exe.config
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\NewBieWPF.exe
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\NewBieWPF.pdb
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignColors.dll
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignColors.pdb
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\MainWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\App.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\MainWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.g.resources
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.Properties.Resources.resources
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csproj.GenerateResource.cache
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csproj.CoreCompileInputs.cache
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF.csproj.CopyComplete
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\ResourceXAML\MainResource.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\LoginWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\LoginWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\UserControlQ\ControlBarUC.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\UserControlQ\ControlBarUC.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\Microsoft.Expression.Interactions.dll
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\System.Windows.Interactivity.dll
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\Microsoft.Expression.Interactions.xml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\System.Windows.Interactivity.xml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\SuplierWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\SuplierWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\CustomerWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\CustomerWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\ObjectWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\UserWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\ObjectWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\UserWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\InputWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\InputWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\OutputWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\OutputWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\UnitWindow.g.cs
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\UnitWindow.baml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\EntityFramework.dll
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\EntityFramework.SqlServer.dll
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\EntityFramework.xml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\bin\Debug\EntityFramework.SqlServer.xml
+F:\HOC_TAP\NEW_FILE\Thuc tap\NewBieWPF\obj\Debug\NewBieWPF_Content.g.cs

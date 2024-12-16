@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyBanHangModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QuanLyBanHangEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="QuanLyBanHangModel.Customer" />
+    <EntitySet Name="Inputs" EntityType="QuanLyBanHangModel.Input" />
+    <EntitySet Name="InputInfoes" EntityType="QuanLyBanHangModel.InputInfo" />
+    <EntitySet Name="Objects" EntityType="QuanLyBanHangModel.Object" />
+    <EntitySet Name="Outputs" EntityType="QuanLyBanHangModel.Output" />
+    <EntitySet Name="OutputInfoes" EntityType="QuanLyBanHangModel.OutputInfo" />
+    <EntitySet Name="Promotions" EntityType="QuanLyBanHangModel.Promotion" />
+    <EntitySet Name="Supliers" EntityType="QuanLyBanHangModel.Suplier" />
+    <EntitySet Name="sysdiagrams" EntityType="QuanLyBanHangModel.sysdiagram" />
+    <EntitySet Name="Units" EntityType="QuanLyBanHangModel.Unit" />
+    <EntitySet Name="UserRoles" EntityType="QuanLyBanHangModel.UserRole" />
+    <EntitySet Name="Users" EntityType="QuanLyBanHangModel.User" />
+    <AssociationSet Name="FK__Output__IDCustom__403A8C7D" Association="QuanLyBanHangModel.FK__Output__IDCustom__403A8C7D">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Output" EntitySet="Outputs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__InputInfo__IDInp__3C69FB99" Association="QuanLyBanHangModel.FK__InputInfo__IDInp__3C69FB99">
+      <End Role="Input" EntitySet="Inputs" />
+      <End Role="InputInfo" EntitySet="InputInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__InputInfo__IDObj__3D5E1FD2" Association="QuanLyBanHangModel.FK__InputInfo__IDObj__3D5E1FD2">
+      <End Role="Object" EntitySet="Objects" />
+      <End Role="InputInfo" EntitySet="InputInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OutputInf__IDInp__4316F928" Association="QuanLyBanHangModel.FK__OutputInf__IDInp__4316F928">
+      <End Role="InputInfo" EntitySet="InputInfoes" />
+      <End Role="OutputInfo" EntitySet="OutputInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Object__IDSuplie__3F466844" Association="QuanLyBanHangModel.FK__Object__IDSuplie__3F466844">
+      <End Role="Suplier" EntitySet="Supliers" />
+      <End Role="Object" EntitySet="Objects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Object__IDUnit__3E52440B" Association="QuanLyBanHangModel.FK__Object__IDUnit__3E52440B">
+      <End Role="Unit" EntitySet="Units" />
+      <End Role="Object" EntitySet="Objects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OutputInf__IDObj__440B1D61" Association="QuanLyBanHangModel.FK__OutputInf__IDObj__440B1D61">
+      <End Role="Object" EntitySet="Objects" />
+      <End Role="OutputInfo" EntitySet="OutputInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Output__IDPromot__412EB0B6" Association="QuanLyBanHangModel.FK__Output__IDPromot__412EB0B6">
+      <End Role="Promotion" EntitySet="Promotions" />
+      <End Role="Output" EntitySet="Outputs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Output__IDUser__4222D4EF" Association="QuanLyBanHangModel.FK__Output__IDUser__4222D4EF">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Output" EntitySet="Outputs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OutputInf__IDOut__44FF419A" Association="QuanLyBanHangModel.FK__OutputInf__IDOut__44FF419A">
+      <End Role="Output" EntitySet="Outputs" />
+      <End Role="OutputInfo" EntitySet="OutputInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__IDRole__45F365D3" Association="QuanLyBanHangModel.FK__Users__IDRole__45F365D3">
+      <End Role="UserRole" EntitySet="UserRoles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ContractDate" Type="DateTime" Precision="3" />
+    <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Outputs" Relationship="QuanLyBanHangModel.FK__Output__IDCustom__403A8C7D" FromRole="Customer" ToRole="Output" />
+  </EntityType>
+  <EntityType Name="Input">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="DateInput" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="InputInfoes" Relationship="QuanLyBanHangModel.FK__InputInfo__IDInp__3C69FB99" FromRole="Input" ToRole="InputInfo" />
+  </EntityType>
+  <EntityType Name="InputInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IDObject" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IDInput" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="InputPrice" Type="Double" />
+    <Property Name="OutputPrice" Type="Double" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Input" Relationship="QuanLyBanHangModel.FK__InputInfo__IDInp__3C69FB99" FromRole="InputInfo" ToRole="Input" />
+    <NavigationProperty Name="Object" Relationship="QuanLyBanHangModel.FK__InputInfo__IDObj__3D5E1FD2" FromRole="InputInfo" ToRole="Object" />
+    <NavigationProperty Name="OutputInfoes" Relationship="QuanLyBanHangModel.FK__OutputInf__IDInp__4316F928" FromRole="InputInfo" ToRole="OutputInfo" />
+  </EntityType>
+  <EntityType Name="Object">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDUnit" Type="Int32" Nullable="false" />
+    <Property Name="IDSuplier" Type="Int32" Nullable="false" />
+    <Property Name="QRCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BarCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="InputInfoes" Relationship="QuanLyBanHangModel.FK__InputInfo__IDObj__3D5E1FD2" FromRole="Object" ToRole="InputInfo" />
+    <NavigationProperty Name="Suplier" Relationship="QuanLyBanHangModel.FK__Object__IDSuplie__3F466844" FromRole="Object" ToRole="Suplier" />
+    <NavigationProperty Name="Unit" Relationship="QuanLyBanHangModel.FK__Object__IDUnit__3E52440B" FromRole="Object" ToRole="Unit" />
+    <NavigationProperty Name="OutputInfoes" Relationship="QuanLyBanHangModel.FK__OutputInf__IDObj__440B1D61" FromRole="Object" ToRole="OutputInfo" />
+  </EntityType>
+  <EntityType Name="Output">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IDCustomer" Type="Int32" Nullable="false" />
+    <Property Name="IDUser" Type="Int32" Nullable="false" />
+    <Property Name="IDPromotion" Type="Int32" />
+    <Property Name="DateOutput" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Total" Type="Double" />
+    <NavigationProperty Name="Customer" Relationship="QuanLyBanHangModel.FK__Output__IDCustom__403A8C7D" FromRole="Output" ToRole="Customer" />
+    <NavigationProperty Name="Promotion" Relationship="QuanLyBanHangModel.FK__Output__IDPromot__412EB0B6" FromRole="Output" ToRole="Promotion" />
+    <NavigationProperty Name="User" Relationship="QuanLyBanHangModel.FK__Output__IDUser__4222D4EF" FromRole="Output" ToRole="User" />
+    <NavigationProperty Name="OutputInfoes" Relationship="QuanLyBanHangModel.FK__OutputInf__IDOut__44FF419A" FromRole="Output" ToRole="OutputInfo" />
+  </EntityType>
+  <EntityType Name="OutputInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IDOutput" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IDObject" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="IDInputInfo" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SumPrice" Type="Double" />
+    <NavigationProperty Name="InputInfo" Relationship="QuanLyBanHangModel.FK__OutputInf__IDInp__4316F928" FromRole="OutputInfo" ToRole="InputInfo" />
+    <NavigationProperty Name="Object" Relationship="QuanLyBanHangModel.FK__OutputInf__IDObj__440B1D61" FromRole="OutputInfo" ToRole="Object" />
+    <NavigationProperty Name="Output" Relationship="QuanLyBanHangModel.FK__OutputInf__IDOut__44FF419A" FromRole="OutputInfo" ToRole="Output" />
+  </EntityType>
+  <EntityType Name="Promotion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="PromotionalValue" Type="Double" />
+    <NavigationProperty Name="Outputs" Relationship="QuanLyBanHangModel.FK__Output__IDPromot__412EB0B6" FromRole="Promotion" ToRole="Output" />
+  </EntityType>
+  <EntityType Name="Suplier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ContractDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Objects" Relationship="QuanLyBanHangModel.FK__Object__IDSuplie__3F466844" FromRole="Suplier" ToRole="Object" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Objects" Relationship="QuanLyBanHangModel.FK__Object__IDUnit__3E52440B" FromRole="Unit" ToRole="Object" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="QuanLyBanHangModel.FK__Users__IDRole__45F365D3" FromRole="UserRole" ToRole="User" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PassWord" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDRole" Type="Int32" Nullable="false" />
+    <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Outputs" Relationship="QuanLyBanHangModel.FK__Output__IDUser__4222D4EF" FromRole="User" ToRole="Output" />
+    <NavigationProperty Name="UserRole" Relationship="QuanLyBanHangModel.FK__Users__IDRole__45F365D3" FromRole="User" ToRole="UserRole" />
+  </EntityType>
+  <Association Name="FK__Output__IDCustom__403A8C7D">
+    <End Type="QuanLyBanHangModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.Output" Role="Output" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Output">
+        <PropertyRef Name="IDCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__InputInfo__IDInp__3C69FB99">
+    <End Type="QuanLyBanHangModel.Input" Role="Input" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.InputInfo" Role="InputInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Input">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="InputInfo">
+        <PropertyRef Name="IDInput" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__InputInfo__IDObj__3D5E1FD2">
+    <End Type="QuanLyBanHangModel.Object" Role="Object" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.InputInfo" Role="InputInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Object">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="InputInfo">
+        <PropertyRef Name="IDObject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OutputInf__IDInp__4316F928">
+    <End Type="QuanLyBanHangModel.InputInfo" Role="InputInfo" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.OutputInfo" Role="OutputInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InputInfo">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OutputInfo">
+        <PropertyRef Name="IDInputInfo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Object__IDSuplie__3F466844">
+    <End Type="QuanLyBanHangModel.Suplier" Role="Suplier" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.Object" Role="Object" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suplier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Object">
+        <PropertyRef Name="IDSuplier" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Object__IDUnit__3E52440B">
+    <End Type="QuanLyBanHangModel.Unit" Role="Unit" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.Object" Role="Object" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Object">
+        <PropertyRef Name="IDUnit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OutputInf__IDObj__440B1D61">
+    <End Type="QuanLyBanHangModel.Object" Role="Object" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.OutputInfo" Role="OutputInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Object">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OutputInfo">
+        <PropertyRef Name="IDObject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Output__IDPromot__412EB0B6">
+    <End Type="QuanLyBanHangModel.Promotion" Role="Promotion" Multiplicity="0..1" />
+    <End Type="QuanLyBanHangModel.Output" Role="Output" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Promotion">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Output">
+        <PropertyRef Name="IDPromotion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Output__IDUser__4222D4EF">
+    <End Type="QuanLyBanHangModel.User" Role="User" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.Output" Role="Output" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Output">
+        <PropertyRef Name="IDUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OutputInf__IDOut__44FF419A">
+    <End Type="QuanLyBanHangModel.Output" Role="Output" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.OutputInfo" Role="OutputInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Output">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OutputInfo">
+        <PropertyRef Name="IDOutput" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__IDRole__45F365D3">
+    <End Type="QuanLyBanHangModel.UserRole" Role="UserRole" Multiplicity="1" />
+    <End Type="QuanLyBanHangModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IDRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
